@@ -1,0 +1,19 @@
+.venv/
+my-botasaurus-project/
+__pycache__/
+*.pyc
+extensions/
+profiles/
+error_logs/
+.vscode/
+.FirefoxPortable/
+.git/
+output/
+standalone.py
+standalone
+The Summer You Were There/
+Kimi ga Shinu Made Koi ga Shita/
+yrgd_c.html
+temp.py
+Downloads/
+a/
