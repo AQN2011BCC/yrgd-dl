@@ -33,6 +33,7 @@ pip install -r requirements.txt
 ```powershell
 python m.py
 ```
+- Nếu tải không hết ảnh hoặc chap trống trơn thì có thể vô file **[dl.py](https://github.com/AQN2011BCC/yrgd-dl/blob/main/dl.py)** và **[m.py](https://github.com/AQN2011BCC/yrgd-dl/blob/main/m.py)** để tăng thời gian chờ lên hoặc chạy lại với những chap bị thiếu
 - truyện sẽ được lưu trong **.\Downloads**
 6. Dành cho việc trích xuất html của 1 trang yurigarden nào bạn muốn
 - Để sử dụng cũng cần cài thư viện, sau đó chạy file **[dl-html.py](https://github.com/AQN2011BCC/yrgd-dl/blob/main/dl-html.py)**
