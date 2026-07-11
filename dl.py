@@ -7,7 +7,8 @@ import conf
 import random
 
 def ran():
-    return random.uniform(0.5, 0.75)
+    X = 1
+    return random.uniform(0.5*x, 0.75*x)
 
 def login(driver: Driver):
     driver.google_get("https://yurigarden.moe/login?redirect=%2Flogin", bypass_cloudflare=True)
@@ -26,6 +27,8 @@ def cl_n(n):
     
     n = n.strip()
     n = re.sub(r'[\\/*?:"<>|]', "", n)
+    n = re.sub(r'\.+$', lambda match: '․' * len(match.group(0)), n)
+    n = n.rstrip(" ")
     return n
 
 def dl(driver: Driver, chapter_url):
